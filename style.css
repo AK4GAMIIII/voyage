@@ -1,0 +1,221 @@
+.navbar{
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+ul{
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin-right: 100px;
+}
+ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+ul li:hover{
+  transform: translateY(-2px);
+}
+.logo{
+  margin-left: 130px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.logo:hover,.Signupbtn:hover,.Discover:hover{
+  transform: scale(1.1);
+
+}
+.Login{
+  color: #00A0B1 ;
+  font-weight: 550;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Login:hover{
+  text-decoration: underline;
+}
+.Signupbtn{
+  border: none;
+  background-color: #00A0B1;
+  color: white;
+  height: 50%;
+  border-radius: 5px;
+  width: 65px;
+  font-weight: bold;
+  margin-right: 90px;
+  margin-top: 8.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.bigimg
+{
+  width: 620px;
+  margin-left: 70px;
+  cursor: pointer;
+  transition: all 0.3s ease ;
+}
+.bigimg:hover{
+  transform: rotate(-5deg);
+}
+.exp{
+  color: #00A0B1;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 115px;
+}
+.time{
+  font-size: 74px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.check{
+  font-size: 15px;
+  color: rgb(160, 160, 160);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin-top: 0px;
+}
+.Discover{
+  border: none;
+  background-color: #00A0B1;
+  color: white;
+  border-radius: 5px;
+  width: 110px;
+  font-weight: bold;
+  height: 5.4%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.pop{
+  text-align: center;
+  font-size: 32px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+
+}
+.countryContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 530px;
+}
+.country{
+  width: 280px;
+}
+.countryimg{
+  cursor: pointer;
+}
+.esmlcountry{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.esmle5Er{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin-left: 8px;
+}
+.backgrounzar9a{
+  height: 600px;
+  background-color: #d7f4f8;
+  width: 100%;
+}
+body{
+  margin: 0;
+}
+.popi{
+  font-size: 32px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  text-align: center;
+}
+.packageContainer{
+  display: flex;
+  justify-content: space-around;
+}
+.card
+{
+  width: 360px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+.packageContainer:hover .card:hover{
+  transform: scale(1.1);
+}
+.packageContainer:hover .card {
+  transform: scale(0.93);
+}
+.dest{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.ad{
+  width: 500px;
+  height: 330px;
+  margin-left: 50px;
+}
+.whycontainer{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+.whyus{
+  background-color: #d7f4f8;
+  height: 700px;
+  margin-top: 50px;
+}
+.arba{
+ margin-top: 70px;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+.orong{
+  background-image: url(images/bhar1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.orong2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bot{
+  background-image: url(images/Bottom.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 380px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bharbhar{
+  width: 35%;
+  height: 520px;
+  background-image: url(images/bhar4.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.bharbhar:hover{
+  transform: rotate(-2deg);
+}
